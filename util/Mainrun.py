@@ -84,7 +84,7 @@ def getsize(w, h):
         return False
 
 
-src = cv2.imread("../test4.jpg")  # 读取图像
+src = cv2.imread("../image/test4.jpg")  # 读取图像
 
 get_gray_img(smaller_img(src))
 
